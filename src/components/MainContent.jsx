@@ -10,7 +10,7 @@ import Expertise from "./Expertise.jsx";
 export default function MainContent() {
   return (
     <>
-    <div className=" relative top-1/2 left-1/2 z-40 -translate-x-1/2">
+    <div className=" relative top-1/2 left-1/2 z-40 -translate-x-1/2 ml-17">
         <DLogo size={200} />
       </div>
 
