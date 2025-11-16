@@ -50,3 +50,5 @@ coverage/
 # Local server assets
 tmp/
 temp/
+
+.vercel

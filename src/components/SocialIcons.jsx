@@ -11,7 +11,7 @@ export default function SocialIcons(){
             <a href="https://www.instagram.com/_dp_3007" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i className="ri-instagram-line" /></a>
             
             <a
-                href="https://mail.google.com/mail/?view=cm&fs=1&to=b422024@iiit-bh.ac.in&su=Visit%20Portfolio&body=Hi%20Deepanshu%2CI%20saw%20your%20portfolio%20and%20would%20like%20to%20connect."
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=pal300720022gmail.com&su=Visit%20Portfolio&body=Hi%20Deepanshu%2CI%20saw%20your%20portfolio%20and%20would%20like%20to%20connect."
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Email via Gmail with message"
