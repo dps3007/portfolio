@@ -1,0 +1,52 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+
+
+# Dependency directories
+node_modules/
+
+
+# Build output
+dist/
+build/
+.next/
+out/
+.vite/
+.vite_deps/
+
+# Cache
+.cache/
+.npm/
+
+.eslintcache
+.stylelintcache
+
+# IDE / Editor
+.vscode/
+.idea/
+
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# Local test coverage
+coverage/
+
+# TypeScript
+*.tsbuildinfo
+
+# Optional npm cache dir
+.npm/
+
+
+
+# Production logs
+*.log
+
+# Local server assets
+tmp/
+temp/
