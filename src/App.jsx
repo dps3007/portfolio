@@ -9,7 +9,7 @@ export default function App() {
     <div>
       <ParticlesFallBack />
 
-      <Header resumePath="/src/assets/resume/resume.pdf" />
+      <Header />
 
       <MainContent />
 
