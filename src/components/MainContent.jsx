@@ -1,21 +1,28 @@
 // MainContent.jsx
-import DLogo from "./DLogo.jsx";
 import LetterTyping from "./LetterTyping.jsx";
 import SocialIcons from "./SocialIcons.jsx";
 import Quote from "./Quote.jsx";
 import Location from "./Location.jsx";
 import Role from "./Role.jsx";
 import Expertise from "./Expertise.jsx";
+import DIcon from "../assets/img/d.png";
+
 
 export default function MainContent() {
   return (
-    <>
-    <div className=" relative top-1/2 left-1/2 z-40 -translate-x-1/2 ml-17">
-        <DLogo size={200} />
-      </div>
+    <main className="min-h-screen pt-16 pb-16 flex items-center justify-center px-4">
+      <div className="flex flex-col items-center text-center">
 
-      <main className="relative z-10 flex flex-col items-center justify-start px-4 text-center">
-        <div className="mx-auto w-full">
+        {/* Fixed-size D logo */}
+        <img
+          src={DIcon}
+          alt="D logo"
+          style={{ width: "200px", height: "200px" }}
+          className=" pointer-events-none select-none"
+        />
+
+        {/* Content */}
+        <div className="w-full max-w-3xl space-y-2">
           <LetterTyping />
           <Quote />
           <Role />
@@ -23,7 +30,8 @@ export default function MainContent() {
           <Location />
           <SocialIcons />
         </div>
-      </main>
-    </>
+
+      </div>
+    </main>
   );
 }

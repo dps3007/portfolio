@@ -14,24 +14,20 @@ export default function ParticlesFallBack() {
 
   return (
     <Particles
-      id="tsparticles"
-      className="pointer-events-none absolute inset-0 z-0"
-      init={particlesInit}
-      loaded={particlesLoaded}
-      options={{
-        background: { color: "#ffffff" },
-        fpsLimit: 60,
-        interactivity: { events: { onHover: { enable: false }, onClick: { enable: false } } },
-        particles: {
-          number: { value: 80, density: { enable: true, area: 900 } },
-          color: { value: ["#34a853", "#ea4335", "#fbbc05", "#4285f4", "#8ecae6"] },
-          shape: { type: ["circle"] },
-          opacity: { value: 0.9 },
-          size: { value: { min: 1, max: 6 } },
-          move: { enable: true, speed: 0.6, outModes: { default: "out" } },
-        },
-        detectRetina: true,
-      }}
-    />
+  id="tsparticles"
+  className="pointer-events-none fixed inset-0 z-0"
+  init={particlesInit}
+  options={{
+    background: { color: "transparent" },
+    fpsLimit: 60,
+    particles: {
+      number: { value: 80, density: { enable: true, area: 900 } },
+      color: { value: ["#34a853", "#ea4335", "#fbbc05", "#4285f4", "#8ecae6"] },
+      size: { value: { min: 1, max: 6 } },
+      move: { enable: true, speed: 0.6 },
+    },
+    detectRetina: true,
+  }}
+/>
   );
 }

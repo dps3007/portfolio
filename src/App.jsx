@@ -6,12 +6,12 @@ import Footer from "./components/Footer.jsx";
 
 export default function App() {
   return (
-    <div>
+    <div className="relative min-h-screen w-full bg-white overflow-hidden">
       <ParticlesFallBack />
 
       <Header />
 
-      <MainContent />
+      <MainContent  />
 
       <Footer />
     </div>
